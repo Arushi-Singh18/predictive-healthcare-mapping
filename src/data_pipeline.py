@@ -8,7 +8,7 @@ import pandas as pd
 # --- Configuration ---
 # You will need to get a free API key from OpenWeatherMap (https://openweathermap.org/api)
 # It is best practice to store this in an environment variable, but you can hardcode for initial testing.
-API_KEY = os.environ.get("OPENWEATHER_API_KEY", "YOUR_API_KEY_HERE")
+API_KEY = os.environ.get("OPENWEATHER_API_KEY", "API_KEY")
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 # Setting up logging so we can track the execution
