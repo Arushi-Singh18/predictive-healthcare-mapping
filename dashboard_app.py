@@ -8,18 +8,18 @@ st.set_page_config(page_title="FrostFit & AI Resource Mapping", page_icon="🏥"
 # Custom CSS for a premium, software-engineer level UI
 st.markdown("""
     <style>
-    .main {background-color: #f8fafc;}
+    .main {background-color: #000000;}
     .alert-box {
         padding: 20px;
         border-radius: 10px;
-        background-color: #fef2f2;
+        background-color: #334155;
         border-left: 6px solid #ef4444;
         margin-bottom: 20px;
     }
     .action-box {
         padding: 20px;
         border-radius: 10px;
-        background-color: #f0fdf4;
+        background-color: #334155;
         border-left: 6px solid #22c55e;
     }
     </style>
